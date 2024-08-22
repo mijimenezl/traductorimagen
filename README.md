@@ -1,1 +1,1 @@
-# traductorimagen
+# Reconocimiento Óptico de Caracteres
