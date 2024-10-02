@@ -4,7 +4,7 @@ import numpy as np
 import pytesseract
 from PIL import Image
 
-image = Image.open('imgtranrec.jpg')
+image = Image.open('voice_ctrl.jpg')
 st.image(image, width=500)
 
 st.title("Reconocimiento óptico de Caracteres")
