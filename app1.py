@@ -4,13 +4,11 @@ import numpy as np
 import pytesseract
 from PIL import Image
 
-image = Image.open('voice_ctrl.jpg')
-st.image(image, width=500)
 
-st.title("Reconocimiento óptico de Caracteres")
+st.title("Reconocimiento Óptico de Caracteres")
 
 
-img_file_buffer = st.camera_input("Toma una Foto")
+img_file_buffer = st.camera_input("Toma una Foto ;)")
 
 with st.sidebar:
       filtro = st.radio("Aplicar Filtro",('Con Filtro', 'Sin Filtro'))
