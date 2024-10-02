@@ -4,12 +4,11 @@ import numpy as np
 import pytesseract
 from PIL import Image
 
+image = Image.open('imgtranrec.jpg')
+st.image(image, width=500)
 
 st.title("Reconocimiento óptico de Caracteres")
 
-
-image = Image.open('imgtranrec.jpg')
-st.image(image, width=500)
 
 img_file_buffer = st.camera_input("Toma una Foto")
 
