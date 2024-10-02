@@ -7,6 +7,8 @@ from PIL import Image
 
 st.title("Reconocimiento Óptico de Caracteres")
 
+image = Image.open('imgtranrec.jpg')
+st.image(image, width=500)
 
 img_file_buffer = st.camera_input("Toma una Foto ;)")
 
